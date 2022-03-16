@@ -1,0 +1,6 @@
+.navbar__exit {
+    color: teal;
+    border: 2px solid teal;
+    font-weight: 400;
+    cursor: pointer;
+}

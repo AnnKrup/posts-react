@@ -1,0 +1,107 @@
+
+.post-enter {
+    transform: translate(-350px);
+}
+
+.post-enter-active {
+    transform: translate(0px);
+    transition: all 500ms ease-in;
+}
+
+.post-exit {
+    opacity: 1;
+}
+
+.post-exit-active {
+    transform: translate(-350px);
+    transition: all 500ms ease-in;
+}
+
+.post {
+    display: flex;
+    border: 2px solid teal;
+    margin: 10px 0;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.current-post {
+    color: teal;
+}
+
+.page {
+    padding: 10px;
+    border: 1px solid teal;
+    cursor: pointer;
+}
+
+.page__current {
+    border: 2px solid orange;
+    font-weight: bold;
+}
+
+.navbar {
+    height: 50px;
+    display: flex;
+    background-color: lightgray;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.navbar__link {
+    margin: 15px;
+    color: teal;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.post__btn-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar__links-wrapper {
+    display: flex;
+}
+
+#root {
+    margin: 0 10px;
+}
+
+select,
+.post__btn > button {
+    cursor: pointer;
+}
+
+.login__title {
+    text-align: center;
+}
+
+.login__info {
+    text-align: center;
+    color: red;
+}
+
+.login__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-us {
+    padding: 20px;
+}
