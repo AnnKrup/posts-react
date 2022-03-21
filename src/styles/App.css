@@ -58,9 +58,9 @@
 .post__btn-wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    margin: 5px;
+    margin: 5px 5px 5px 10px;
 }
 
 .container {
@@ -104,4 +104,27 @@ select,
 
 .about-us {
     padding: 20px;
+}
+
+.post__contant > strong {
+    display: block;
+    padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 540px) {
+    .container {
+        flex-wrap: wrap;
+        margin: 40px auto;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .form {
+        margin-top: 40px;
+    }
+
+    .pagination-wrapper {
+        display: flex;
+        justify-content: center;
+    }
 }

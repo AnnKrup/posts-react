@@ -5,7 +5,7 @@ const MyPagination = ({totalPages, changePage, page}) => {
     let pagesArray = getPageArr(totalPages);
 
  return (
-        <div>
+        <div className="pagination-wrapper">
             <br/>
             {pagesArray.map(p => 
             <span 

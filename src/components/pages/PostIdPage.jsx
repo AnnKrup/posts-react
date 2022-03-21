@@ -28,7 +28,7 @@ const PostIdPage = () => {
      <div>
      { isLoading
         ? <MyLoader/>
-        : <div c>
+        : <div>
             <h1>Страница с постом номер {params.id}</h1>
             <div className="current-post">{post.id}{error ? state.post.title : post.title}</div>
             <br/> 
